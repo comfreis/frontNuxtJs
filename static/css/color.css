@@ -1,0 +1,51 @@
+.color-white{
+    color: #fff !important;
+}
+.color-coal{
+    color: #505050 !important;
+}
+.color-baby-blue{
+    color: #8cc5ff;
+}
+.hover_gold:hover{
+    color: #E6A23C !important;
+}
+.hover_nature:hover{
+    color: #67C23A !important;
+}
+.hover_flaminco:hover{
+    color: #F56C6C !important;
+}
+.hover_purple-blue:hover{
+    color: #626aef !important;
+}
+.hover_white:hover{
+    color: #fff !important;
+}
+.hover_bg-gold:hover{
+    background-color: #E6A23C !important;
+}
+.hover_bg-nature:hover{
+    background-color: #67C23A !important;
+}
+.hover_bg-flaminco:hover{
+    background-color: #F56C6C !important;
+}
+.hover_bg-purple-blue:hover{
+    background-color: #626aef !important;
+}
+.hover_bg-white:hover{
+    background-color: #fff !important;
+}
+.color-purple-blue {
+    color: #626aef !important;
+}
+.bg-white{
+    background-color: #fff !important;
+}
+.bg-coal{
+    background-color: #505050 !important;
+}
+.bg-purple-blue {
+    background-color: #626aef !important;
+}

@@ -1,0 +1,18 @@
+.cursor-pointer{
+    cursor: pointer;
+}
+.cursor-alias{
+    cursor: alias;
+}
+.cursor-allscroll{
+    cursor: all-scroll;
+}
+.cursor-auto{
+    cursor: auto;
+}
+.cursor-grab{
+    cursor: grab;
+}
+.cursor-crosshair{
+    cursor: crosshair;
+}

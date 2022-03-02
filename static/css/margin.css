@@ -1,0 +1,160 @@
+.m-1{
+    margin: 1px !important;
+}
+.m-2{
+    margin: 2px !important;
+}
+.m-3{
+    margin: 3px !important;
+}
+.m-4{
+    margin: 4px !important;
+}
+.m-5{
+    margin: 5px !important;
+}
+.m-6{
+    margin: 6px !important;
+}
+.m-7{
+    margin: 7px !important;
+}
+.m-8{
+    margin: 8px !important;
+}
+.m-9{
+    margin: 9px !important;
+}
+.m-10{
+    margin: 10px !important;
+}
+.m-1-percent{
+    margin: 1% !important;
+}
+.m-2-percent{
+    margin: 2% !important;
+}
+.m-3-percent{
+    margin: 3% !important;
+}
+.m-4-percent{
+    margin: 4% !important;
+}
+.m-5-percent{
+    margin: 5% !important;
+}
+.m-6-percent{
+    margin: 6% !important;
+}
+.m-7-percent{
+    margin: 7% !important;
+}
+.m-8-percent{
+    margin: 8% !important;
+}
+.m-9-percent{
+    margin: 9% !important;
+}
+.m-10-percent{
+    margin: 10% !important;
+}
+
+.mt-1-percent{
+    margin-top: 1% !important;
+}
+.mt-2-percent{
+    margin-top: 2% !important;
+}
+.mt-3-percent{
+    margin-top: 3% !important;
+}
+.mt-4-percent{
+    margin-top: 4% !important;
+}
+.mt-5-percent{
+    margin-top: 5% !important;
+}
+.mt-6-percent{
+    margin-top: 6% !important;
+}
+.mt-7-percent{
+    margin-top: 7% !important;
+}
+.mt-8-percent{
+    margin-top: 8% !important;
+}
+.mt-9-percent{
+    margin-top: 9% !important;
+}
+.mt-10-percent{
+    margin-top: 10% !important;
+}
+
+.mb-1-percent{
+    margin-bottom: 1% !important;
+}
+.mb-2-percent{
+    margin-bottom: 2% !important;
+}
+.mb-3-percent{
+    margin-bottom: 3% !important;
+}
+.mb-4-percent{
+    margin-bottom: 4% !important;
+}
+.mb-5-percent{
+    margin-bottom: 5% !important;
+}
+.mb-6-percent{
+    margin-bottom: 6% !important;
+}
+.mb-7-percent{
+    margin-bottom: 7% !important;
+}
+.mb-8-percent{
+    margin-bottom: 8% !important;
+}
+.mb-9-percent{
+    margin-bottom: 9% !important;
+}
+.mb-10-percent{
+    margin-bottom: 10% !important;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.m-left-auto{
+    margin-left: auto !important;
+}
+.m-left-0{
+    margin-left: 0 !important;
+}
+.m-left-2{
+    margin-left: 2% !important;
+}
+.m-left-4{
+    margin-left: 4% !important;
+}
+.m-right-auto{
+    margin-right: auto !important;
+}
+.m-right-0{
+    margin-right: 0 !important;
+}
+.m-right-2{
+    margin-right: 2% !important;
+}
+.m-right-4{
+    margin-right: 4% !important;
+}
+
+.mx-2rem{
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+}
+.my-2rem{
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}

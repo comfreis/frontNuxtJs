@@ -1,0 +1,80 @@
+.border-none{
+    border: none !important;
+}
+.border-0{
+    border: 0px !important;
+}
+.border-transparent{
+    border-color: transparent !important;
+}
+/* min porcentagem */
+.border-radius-1{
+    border-radius: 1px !important;
+}
+.border-radius-2{
+    border-radius: 2px !important;
+}
+.border-radius-3{
+    border-radius: 3px !important;
+}
+.border-radius-4{
+    border-radius: 4px !important;
+}
+.border-radius-5{
+    border-radius: 5px !important;
+}
+.border-radius-10{
+    border-radius: 10px !important;
+}
+.border-radius-15{
+    border-radius: 15px !important;
+}
+.border-radius-20{
+    border-radius: 20px !important;
+}
+.border-radius-25{
+    border-radius: 25px !important;
+}
+.border-circus{
+    border-radius: 100% !important;
+}
+
+/* normal porcentagem */
+.border-1{
+    border: 1px solid !important;
+}
+.border-2{
+    border: 2px solid !important;
+}
+.border-3{
+    border: 3px solid !important;
+}
+.border-4{
+    border: 4px solid !important;
+}
+.border-5{
+    border: 5px solid !important;
+}
+.border-6{
+    border: 6px solid !important;
+}
+.border-7{
+    border: 7px solid !important;
+}
+.border-8{
+    border: 8px solid !important;
+}
+.border-9{
+    border: 9px solid !important;
+}
+.border-10{
+    border-width: 10px solid !important;
+}
+
+.boxshadow-sm{
+    box-shadow: 0 2px 0px rgba(0, 0, 0, .12), 0 0px 7px rgba(0, 0, 0, .04);
+}
+
+.boxshadow-md{
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .12), 0 10px 15px rgba(0, 0, 0, .04);
+}

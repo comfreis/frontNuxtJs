@@ -1,0 +1,12 @@
+.over-y-auto{
+    overflow-y: auto !important;
+}
+.over-x-auto{
+    overflow-x: auto !important;
+}
+.over-y-hidden{
+    overflow-y: hidden !important;
+}
+.over-x-hidden{
+    overflow-x: hidden !important;
+}
