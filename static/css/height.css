@@ -122,6 +122,9 @@
 .min-vh-h-8{
     min-height: 80vh !important;
 }
+.min-vh-h-85{
+    min-height: 85vh !important;
+}
 .min-vh-h-9{
     min-height: 90vh !important;
 }

@@ -41,10 +41,10 @@
   }
 
   export default {
-    name: 'IndexPage',
+    /* name: 'IndexPage',
     layout (context) {
       return 'default'
-    },
+    }, */
     data() {
       return {
         text: '',

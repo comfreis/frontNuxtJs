@@ -8,6 +8,9 @@
     border-color: transparent !important;
 }
 /* min porcentagem */
+.border-radius-0{
+    border-radius: 0px !important;
+}
 .border-radius-1{
     border-radius: 1px !important;
 }
@@ -36,7 +39,7 @@
     border-radius: 25px !important;
 }
 .border-circus{
-    border-radius: 100% !important;
+    border-radius: 50% !important;
 }
 
 /* normal porcentagem */

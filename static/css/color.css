@@ -34,6 +34,18 @@
 .hover_bg-purple-blue:hover{
     background-color: #626aef !important;
 }
+.hover_bg-clarie-blue:hover{
+    background-color: #4da4fa !important;
+}
+.hover_bg-cadense-blue:hover{
+    background-color: #338feb !important;
+}
+.hover_bg-narrow-blue:hover{
+    background-color: #5e51d4 !important;
+}
+.hover_bg-baby-blue:hover{
+    background-color: #79bbff !important;
+}
 .hover_bg-white:hover{
     background-color: #fff !important;
 }
@@ -48,4 +60,16 @@
 }
 .bg-purple-blue {
     background-color: #626aef !important;
+}
+.bg-clarie-blue{
+    background-color: #4da4fa !important;
+}
+.bg-cadense-blue{
+    background-color: #338feb !important;
+}
+.bg-narrow-blue{
+    background-color: #5e51d4 !important;
+}
+.bg-baby-blue{
+    background-color: #79bbff !important;
 }
