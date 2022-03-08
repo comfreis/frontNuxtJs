@@ -1,8 +1,6 @@
 .center{
     align-items: center !important;
-    align-content: center !important;
     justify-content: center !important;
-    justify-items: center !important;
 }
 .left{
     align-items: left !important;
@@ -38,6 +36,16 @@
     position: fixed !important;
     bottom: 0 !important;
     left: 0 !important;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    text-align: -webkit-center;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    text-align: -webkit-center;
 }
 .absolute-top{
     position: absolute !important;

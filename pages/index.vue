@@ -17,11 +17,44 @@
         <el-input class="color-coal" type="password" prefix-icon="el-icon-lock" v-model="formLogin.password" placeholder="Password" />
       </el-form-item>
 
-      <el-form-item class="flex center" size="normal">
-        <el-button class="m-auto p-5 boxshadow-sm" type="primary" @click="getApiLogin(formLogin.username, formLogin.password)" circle>
-          <i class="el-icon-key"></i>
-        </el-button>
+      <el-form-item class="col w-10 mt-6-percent" size="normal">
+        <el-input class="w-4 m-auto m-right-4 p-0 border-radius-10 bg-purple-blue hover_bg-cadense-blue boxshadow-md singin hover_singin" prefix-icon="el-icon-key" type="button" @click="getApiLogin(formLogin.username, formLogin.password)" value="Sing In" />
+        <el-input class="w-4 m-auto m-left-4 p-0 border-radius-10  hover_bg-cadense-blue boxshadow-md hover_singup" prefix-icon="el-icon-user" type="button" @click="singUp = true" value="Sing Up" />
       </el-form-item>
+
+      <el-dialog
+        v-model="singUp"
+        :visible.sync="singUp"
+        width="30%"
+        :before-close="handleClose"
+      >
+        <el-form class="w-4 p-2-percent m-auto border-radius-10 bg-white boxshadow-md">
+          <el-header class="w-10 min-h-4 p-1 justify color-coal">
+            <!-- Header content -->
+            <h1 align="center">
+              Sing Up
+            </h1>
+            <hr class="bg-coal border-0 p-1 mt-4-percent mb-1-percent">
+          </el-header>
+          
+          <el-form-item label="User Id">
+            <el-input class="color-coal" prefix-icon="el-icon-user" v-model="formLogin.username" placeholder="User name" />
+          </el-form-item>
+          
+          <el-form-item label="Password">
+            <el-input class="color-coal" type="password" prefix-icon="el-icon-lock" v-model="formLogin.password" placeholder="Password" />
+          </el-form-item>
+        </el-form>
+        <template #footer>
+          <span class="dialog-footer">
+            <el-button @click="singUp = false">Cancel</el-button>
+            <el-button type="primary" @click="register"
+              >Confirm</el-button
+            >
+          </span>
+        </template>
+      </el-dialog>
+
     </el-form>
   </section>
 </template>
@@ -60,6 +93,7 @@
         },
         allData: null,
         dataUser: null,
+        singUp: false,
       }
     },
     created() {
@@ -156,7 +190,34 @@
           }).catch((error) => {
             console.error(error);
           });
+      },
+      handleClose(done) {
+        this.$confirm('Tem certeza que deseja fechar este dialogo?')
+          .then(_ => {
+            done();
+          })
+          .catch(_ => {});
+      },
+      register(){
+
       }
     }
   }
 </script>
+
+<style>
+  input[type="button"]{
+    cursor: pointer;
+    border: 0px;
+    background-color: transparent;
+  }
+  .hover_singup:hover input[type="button"]{
+    color: white !important;
+  }
+  .singin input[type="button"]{
+    color: bisque !important;
+  }
+  .hover_singin:hover input[type="button"]{
+    color: white !important;
+  }
+</style>
